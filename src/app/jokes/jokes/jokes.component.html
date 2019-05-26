@@ -1,0 +1,4 @@
+<section id="joke">
+	<button (click)="getJoke()">Get Another</button>
+	<p [innerHTML]="joke | async"></p>
+</section>
